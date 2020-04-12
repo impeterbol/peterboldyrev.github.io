@@ -19,11 +19,15 @@ h2{
     font-weight: 300; 
   }
 
+  .btnContact {
+    border: 2px solid black;
+}
+
 .profilePic{
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 150px;
+    max-height: 150px;
     vertical-align:middle;
-    margin-top:3vh;
+    margin-top:1vh;
 }
 
 #landing{
@@ -31,5 +35,22 @@ h2{
     z-index: -1;
 }
 #mainText{
-    margin-top: 30vh;
+    margin-top: 10vh;
+}
+
+.aboutMeArticle{
+    font-size: 18px;
+    font-weight: 300; 
+}
+
+.peterPhoto{
+    max-width: 250px;
+    max-height: 250px;
+}
+
+#intro{
+
+        height: 100vh;
+        z-index: -1;
+    
 }
