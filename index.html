@@ -22,10 +22,9 @@
 <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
 
-<div class="section navbar" id=navbar1>
+<div class="section navbar-fixed" id=navbar1>
 <!-- navbar -->
     <nav class="z-depth-0">
-        <a class="dark-toggle" href="#" onclick="localStorage.setItem('mode', (localStorage.getItem('mode') || 'dark') === 'dark' ? 'light' : 'dark'); localStorage.getItem('mode') === 'dark' ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark')" title="Dark/light"><i class="material-icons left">brightness_4</i> Toggle Dark Mode</a>
         <div class="nav-wrapper">
 
           <ul class="right">
@@ -63,9 +62,10 @@
 </div>
 
 <!-- Intro and service -->
-<div class="section aboutMeFull" id="intro" >
-    <div class="container">
-        <div class="row center">
+<div class='section'>
+    <div class="aboutMeFull" id="intro" >
+        <div class="container">
+         <div class="row center">
             <div  class="col s12">
                 <h3 class="center header"> Hello, I'm Peter! Let's talk!</h3>
             </div>
@@ -113,10 +113,11 @@
         </div>
        
     </div>
-    
+    </div>
 </div>
 
-<div class="section projectsSkills" id="projects">
+<div class='section'>
+<div class=" projectsSkills" id="projects">
     <div class="container">
         <h3 class="header center">My Projects </h3>
             <!-- projects -->
@@ -213,6 +214,7 @@
                 </div>
             </div>
         <!-- end skills section -->
+      </div>
     </div>
 </div>
     
