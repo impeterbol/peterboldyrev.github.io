@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-          <!--Import Google Icon Font-->
-          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+          <!--Import FontAwesome-->
+          <script src="https://use.fontawesome.com/f9a4b2dd3a.js"></script>
           <!-- import Raleway font -->
 	    <link href="https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap" rel="stylesheet">
             <!-- adding reset css -->
@@ -22,10 +22,11 @@
 <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
 
-<div class="section navbar-fixed" id=navbar1>
+<div class="section navbar" id=navbar1>
 <!-- navbar -->
     <nav class="z-depth-0">
         <div class="nav-wrapper">
+
           <ul class="right">
                             <!-- Dropdown Trigger -->
                 <a class='dropdown-trigger btn btnContact z-depth-0 transparent black-text' href='#' data-target='dropdown1'>Contact me</a>
@@ -55,9 +56,8 @@
               <img src="assets/images/testavatar.svg" class="profilePic">
             </div> 
             <div class='center-align'>
-                <!-- <a class="btn-floating btn-large waves-effect waves-light transparent btnDown"><i class="material-icons">expand_more</i></a> -->
            
-                <a class="btn-floating blue btnDown"><i class="material-icons">expand_more</i></a>
+                <a class="btn-floating blue btnDown"><i class="fa fa-angle-double-down"></i></a>
             </div>
 </div>
 
@@ -86,11 +86,25 @@
                 </article>
                 <br>
 
-                <a class="waves-effect transparent black-text btn-large btn z-depth-1"> <i class="material-icons right">portrait</i>Resume</a>
+                <a class="waves-effect transparent black-text btn-large btn z-depth-1"> <i class="fa fa-file right"></i>Resume</a>
+            <br>
+            <!-- FIXED ACTION BUTTON -->
+                    <div class="fixed-action-btn vertical">
+                        <a class="btn-floating btn-medium  blue ">
+                            <i class="fa fa-thumbs-up"></i>
+                        </a>
+                        <ul>
+                            <li><a href="#" class="btn-floating  white "><i class="fa fa-feather"></i></a></li>
+                            <li><a href="https://twitter.com/peterb0ld" class="btn-floating cyan "><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://github.com/peterboldyrev?tab=repositories" class="btn-floating grey darken-3"> <i class="fa fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/peterboldyrev/" class="btn-floating blue darken-2"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+            <!-- FIXED ACTION BUTTON END -->
             <br>
             <div class="center-align">
                 <div class="col s12 m12 offset-l1 l6 ">
-                    <a class="btn-floating blue btnDown2"><i class="material-icons">expand_more</i></a>
+                    <a class="btn-floating blue btnDown2"><i class="fa fa-angle-double-down"></i>expand_more</i></a>
                 </div>
             </div>
             </div>
@@ -102,56 +116,104 @@
 </div>
 
 <div class="section projectsSkills" id="projects">
-
-    <!-- projects -->
-    <div class="row">
-        <div class="col s12 m6 l3">
-          <div class="card small">
-            <div class="card-image">
-              <img src="#">
-              <span class="card-title">Card Title</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-            </div>
-          </div>
-        </div>
-      </div>
-   
-
-    <!-- end projects -->
-
-
-    <!-- skills section -->
-
-    <div class="row">
-        <div class="col s12 m6 l3">
-            <div class="card skills">
-                <div class="card-content">
-                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+    <div class="container">
+        <h3 class="header center">My Projects </h3>
+            <!-- projects -->
+            <div class="row">
+                <div class="col s12 m6 l3">
+                    <div class="card small">
+                        <div class="card-image">
+                        <img src="./assets/images/notenotes.png">
+                        <span class="card-title"></span>
+                        </div>
+                        <div class="card-content">
+                        <p>A simple express app to take / store notes</p>
+                        </div>
+                        <div class="card-action">
+                        <a href="https://github.com/peterboldyrev/note-taker">View Code</a>
+                        <a href="https://notesnotes.herokuapp.com/">View Demo</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-tabs">
-                <ul class="tabs tabs-fixed-width">
-                    <li class="tab"><a href="#test4">Test 1</a></li>
-                    <li class="tab"><a class="active" href="#test5">Test 2</a></li>
-                    <li class="tab"><a href="#test6">Test 3</a></li>
-                </ul>
+                <div class="col s12 m6 l3">
+                    <div class="card small">
+                        <div class="card-image">
+                        <img src="./assets/images/champschamps.png">
+                        <span class="card-title"></span>
+                        </div>
+                        <div class="card-content">
+                        <p>Enables users to get the most current game data and videos from the current season of Champions League. Uses YouTube and Football APIs</p>
+                        </div>
+                        <div class="card-action">
+                        <a href="https://github.com/peterboldyrev/ChampionsLeague-Tracker">View Code</a>
+                        <a href="http://peterboldyrev.github.io/ChampionsLeague-Tracker">View Demo</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-content grey lighten-4">
-                <div id="test4">Test 1</div>
-                <div id="test5">Test 2</div>
-                <div id="test6">Test 3</div>
+                <div class="col s12 m6 l3">
+                    <div class="card small">
+                        <div class="card-image">
+                        <img src="./assets/images/coronacorona.png">
+                        <span class="card-title"></span>
+                        </div>
+                        <div class="card-content">
+                        <p>Gets live data on Covid-19 from JHU. Additionally, local users can view a dynamically updated data set of businesses along with their operational details.</p>
+                        </div>
+                        <div class="card-action">
+                        <a href="https://github.com/peterboldyrev/corona-virus-tracker-2">View Code</a>
+                        <a href="http://covidnstuff.herokuapp.com/">View Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card small">
+                        <div class="card-image">
+                        <img src="./assets/images/workwork.png">
+                        <span class="card-title"></span>
+                        </div>
+                        <div class="card-content">
+                        <p>Calendar app that allows user to organize the workday by dynamically tracking current hour</p>
+                        </div>
+                        <div class="card-action">
+                        <a href="https://github.com/peterboldyrev/hw0114">View Code</a>
+                        <a href="peterboldyrev.github.io/hw0114/index.html">View Demo</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        
+
+            <!-- end projects -->
+
+
+            <!-- skills section -->
+
+            <div class="row center">
+                <div class="col s12 m12 l12">
+                    <div class="container">
+                    <table class='center responsive-table'>
+                        <thead>
+                          <tr>
+                              <th>Things I've learned</th>
+                              <th>Tools I use</th>
+                              
+                          </tr>
+                        </thead>
+                
+                        <tbody>
+                          <tr>
+                            <td>JavaScript ES6, HTML5, CSS3 (Sass, Frameworks(Bootstrap)), React.js, MySQL, MongoDB, Express, Node.js, RESTful API and counting... </td>
+                            <td>VS Code, Github, Redux, React Router, Axios, npm, Git, Chrome Developer Tools And more...</td>
+                          </tr>
+                         
+                        </tbody>
+                      </table>
+                    </div>
+                </div>
+            </div>
+        <!-- end skills section -->
     </div>
-  <!-- end skills section -->
 </div>
-
     
 
     
