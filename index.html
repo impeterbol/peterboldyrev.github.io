@@ -22,14 +22,13 @@
 <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
 
-<div class="section" id=navbar1>
+<div class="section navbar-fixed" id=navbar1>
 <!-- navbar -->
     <nav class="z-depth-0">
         <div class="nav-wrapper">
-          <a href="#!" class="brand-logo">Logo</a>
           <ul class="right">
                             <!-- Dropdown Trigger -->
-                <a class='dropdown-trigger btn z-depth-0' href='#' data-target='dropdown1'>Contact me</a>
+                <a class='dropdown-trigger btn btnContact z-depth-0 transparent black-text' href='#' data-target='dropdown1'>Contact me</a>
 
                 <!-- Dropdown Structure -->
                 <ul id='dropdown1' class='dropdown-content z-depth-0'>
@@ -48,39 +47,109 @@
 </div>
 
 
-<div class="section" id="landing">
-        <h1 id="mainText" class="center-align">Full-stack web developer based in Redmond,WA</h5>
-        <h2 class="center-align">I learned to code while being a full-time PM at Microsoft!</h4>
+<div class="section aboutMeShort" id="landing">
+            <h1 id="mainText" class="center-align ">Full-stack web developer based in Redmond,WA</h5>
+            <h2 class="center-align">I learned to code while being a full-time PM at Microsoft!</h4>
         <br>
-          <div class='center-align'><img src="assets/images/testavatar.svg" class="profilePic"></div> 
+            <div class='center-align'>
+              <img src="assets/images/testavatar.svg" class="profilePic">
+            </div> 
+            <div class='center-align'>
+                <!-- <a class="btn-floating btn-large waves-effect waves-light transparent btnDown"><i class="material-icons">expand_more</i></a> -->
+           
+                <a class="btn-floating blue btnDown"><i class="material-icons">expand_more</i></a>
+            </div>
 </div>
 
 <!-- Intro and service -->
-<div class="section" id="intro" >
+<div class="section aboutMeFull" id="intro" >
     <div class="container">
-        <div class="row">
+        <div class="row center">
             <div  class="col s12">
                 <h3 class="center header"> Hello, I'm Peter! Let's talk!</h3>
             </div>
         </div>
         <div class="row center">
             <div class="col s12 m12 l3">
-                <img class="responsive-img" src="Your Picture Here">
+                <img class="responsive-img circle peterPhoto" src="assets/images/peterPhoto.jpeg">
             </div>
-            <div class="col s12 m12 offset-l1 l8 ">
-                <h5 class="center">Madhav Bahl <b>ABOUT ME</b></h5>
-                <p>
-                    I was teaching in China, playing computer games every night, 
-                    not knowing where I was going in life... 
-                    Then I started this journey and haven't looked back! 
-                    Now I'm in Chicago, IL, doing full-stack development at a cyber security firm. 
-                    Take a look at my skills, some of my most recent projects, and read some of my managers' testimonials below.
-                  
-                    
-                </p>
+            <div class="col s12 m12 offset-l1 l6 ">
+                             
+                <article class="aboutMeArticle">
+                    <p class="flow-text">I am a program manager at Microsoft who is excited about writing clean and well organized code when building web apps.</p>
+                    <br>
+                    <p class="flow-text">Holding a full-stack certification at University of Washington and Masters degree in International studies at University of Washington.</p>
+                    <br>
+                    <p class="flow-text">My passion around coding combined with extensive(5+yoe) pm background brings a unique blend of skills and experience that make my projects truly successful.</p>
+                    <br>
+                    <p class="flow-text">Take a look at my skills and some of my most recent projects below.</p>
+                </article>
+                <br>
+
+                <a class="waves-effect transparent black-text btn-large btn z-depth-1"> <i class="material-icons right">portrait</i>Resume</a>
+            <br>
+            <div class="center-align">
+                <div class="col s12 m12 offset-l1 l6 ">
+                    <a class="btn-floating blue btnDown2"><i class="material-icons">expand_more</i></a>
+                </div>
+            </div>
+            </div>
+                      
+        </div>
+       
+    </div>
+    
+</div>
+
+<div class="section projectsSkills" id="projects">
+
+    <!-- projects -->
+    <div class="row">
+        <div class="col s12 m6 l3">
+          <div class="card small">
+            <div class="card-image">
+              <img src="#">
+              <span class="card-title">Card Title</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+
+    <!-- end projects -->
+
+
+    <!-- skills section -->
+
+    <div class="row">
+        <div class="col s12 m6 l3">
+            <div class="card skills">
+                <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-tabs">
+                <ul class="tabs tabs-fixed-width">
+                    <li class="tab"><a href="#test4">Test 1</a></li>
+                    <li class="tab"><a class="active" href="#test5">Test 2</a></li>
+                    <li class="tab"><a href="#test6">Test 3</a></li>
+                </ul>
+                </div>
+                <div class="card-content grey lighten-4">
+                <div id="test4">Test 1</div>
+                <div id="test5">Test 2</div>
+                <div id="test6">Test 3</div>
+                </div>
             </div>
         </div>
     </div>
+  <!-- end skills section -->
 </div>
 
     
