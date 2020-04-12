@@ -21,50 +21,51 @@
 </head>
 <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+<div class="section nvbr">
+    <div class="navbar-fixed" id=navbar1>
+    <!-- navbar -->
+        <nav class="z-depth-0">
+            <div class="nav-wrapper">
 
-<div class="section navbar-fixed" id=navbar1>
-<!-- navbar -->
-    <nav class="z-depth-0">
-        <div class="nav-wrapper">
+            <ul class="right">
+                                <!-- Dropdown Trigger -->
+                    <a class='dropdown-trigger btn btnContact z-depth-0 transparent black-text' href='#' data-target='dropdown1'>Contact me</a>
 
-          <ul class="right">
-                            <!-- Dropdown Trigger -->
-                <a class='dropdown-trigger btn btnContact z-depth-0 transparent black-text' href='#' data-target='dropdown1'>Contact me</a>
-
-                <!-- Dropdown Structure -->
-                <ul id='dropdown1' class='dropdown-content z-depth-0'>
-                    <li><a href="#!">Contact form</a></li>
-                    <li class="divider" tabindex="-1"></li>
-                    <li><a href="#!">LinkedIn</a></li>
-                    <li><a href="#!">GitHub</a></li>
-                    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
-                    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
-                </ul>
-                        
-          </ul>
-        </div>
-      </nav>
-<!-- navbar end -->
-</div>
-
-
-<div class="section aboutMeShort" id="landing">
-            <h1 id="mainText" class="center-align ">Full-stack web developer based in Redmond,WA</h5>
-            <h2 class="center-align">I learned to code while being a full-time PM at Microsoft!</h4>
-        <br>
-            <div class='center-align'>
-              <img src="assets/images/testavatar.svg" class="profilePic">
-            </div> 
-            <div class='center-align'>
-           
-                <a class="btn-floating blue btnDown"><i class="fa fa-angle-double-down"></i></a>
+                    <!-- Dropdown Structure -->
+                    <ul id='dropdown1' class='dropdown-content z-depth-0'>
+                        <li><a href="#!">Contact form</a></li>
+                        <li class="divider" tabindex="-1"></li>
+                        <li><a href="#!">LinkedIn</a></li>
+                        <li><a href="#!">GitHub</a></li>
+                        <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+                        <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+                    </ul>
+                            
+            </ul>
             </div>
+        </nav>
+    <!-- navbar end -->
+    </div>
 </div>
 
+<div class='section lndng'>
+    <div class="aboutMeShort" id="landing">
+                <h1 id="mainText" class="center-align ">Full-stack web developer based in Redmond,WA</h5>
+                <h2 class="center-align">I learned to code while being a full-time PM at Microsoft!</h4>
+            <br>
+                <div class='center-align'>
+                <img src="assets/images/testavatar.svg" class="profilePic">
+                </div> 
+                <div class='center-align'>
+            
+                    <a class="btn-floating blue btnDown"><i class="fa fa-angle-double-down"></i></a>
+                </div>
+    </div>
+</div>
 <!-- Intro and service -->
-<div class='section'>
+<div class='section abt'>
     <div class="aboutMeFull" id="intro" >
-        <div class="container">
+        <div class="container containerIntro">
          <div class="row center">
             <div  class="col s12">
                 <h3 class="center header"> Hello, I'm Peter! Let's talk!</h3>
@@ -116,9 +117,9 @@
     </div>
 </div>
 
-<div class='section'>
+<div class='section proj'>
 <div class=" projectsSkills" id="projects">
-    <div class="container">
+    <div class="container containerProjects">
         <h3 class="header center">My Projects </h3>
             <!-- projects -->
             <div class="row">
@@ -217,8 +218,55 @@
       </div>
     </div>
 </div>
-    
 
+<div class='section cntct'>
+ <div class='container contactContainer'>
+    <div class="row center">
+        <div  class="col s12">
+            <h3 class="center header"> Contact me!</h3>
+        </div>
+    </div>
+    
+    <!-- contact form -->
+   
+    <div class="row">
+        
+        <form class="col s12" action="mailto:peterboldyrev@gmail.com" method="post" enctype="text/plain">
+          <div class="row">
+            <div class="input-field col s6">
+                <i class="fa fa-user prefix"></i>
+              <input id="icon_prefix" type="text" name="name" class="validate form-control">
+              <label for="icon_prefix right">Name</label>
+              <span class="helper-text" data-error="wrong" data-success="Nice name!">Please enter your name</span>
+            </div>
+            <div class="input-field col s6">
+                <i class="fa fa-envelope prefix"></i>
+              <input id="email" type="email" class="validate form-control" name="email">
+              <label for="email">Email</label>
+              <span class="helper-text" data-error="wrong" data-success="Looks like an email!">Please enter your email</span>
+            </div>
+          </div>
+          <div class="row">
+                <div class="input-field col s12">
+                    <i class="fa fa-quote-right prefix"></i>
+                  <textarea id="icon_prefix2" class="materialize-textarea form-control" name="message"></textarea>
+                  <label for="icon_prefix2">Enter your message</label>
+                  <span class="helper-text" data-error="wrong" data-success="I will get back to you shortly after receiving!">You can also contact me via peterboldyrev@gmail.com</span>
+                </div>
+          </div>
+          <div class="row center ">
+            <div class="col s12 form-group">
+                <button class="btn waves-effect blue waves-light" type="submit" name=" " value="This email is sent from the contact form">Submit
+                    <i class="fa fa-paper-plane right"></i>
+                </button>
+            </div>
+        </div>
+
+        </form>
+         </div>
+    </div>
+    <!-- contact form end -->
+</div>
     
 
 
