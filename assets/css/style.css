@@ -1,7 +1,7 @@
-
+/* 
 https://codepen.io/j_holtslander/pen/MRbpLX
 https://stackoverflow.com/questions/14319274/change-css-properties-on-click
-
+ */
 
 body {
 background-color:#FDFCFD;
@@ -31,7 +31,7 @@ h2{
     font-weight: 300; 
   }
 
-  .btnContact {
+.btnContact {
     border: 1px solid blue;
 }
 
@@ -44,11 +44,11 @@ h2{
 
 .btnDown{
     vertical-align:middle;
-    margin-top:20vh;
+    margin-top:10vh;
 }
 .btnDown2{
     vertical-align:middle;
-    margin-top:2vh;
+    margin-top:1vh;
 }
 
 #mainText{
@@ -65,8 +65,8 @@ h2{
 }
 
 .peterPhoto{
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 150px;
+    max-height: 150px;
 }
 
 .contactContainer, .containerIntro,.containerProjects{
@@ -77,8 +77,10 @@ form{
     margin-top: 10vh;
 }
 
-/* dark mode */
 
+
+/* dark mode */
+/* 
 
 .dark {
     background-color: #202123;
@@ -122,4 +124,4 @@ form{
         }
     }
 }
-}
+} */
