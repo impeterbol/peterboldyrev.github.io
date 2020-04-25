@@ -55,18 +55,29 @@ h2{
     margin-top: 10vh;
 }
 
-.lndng,.abt,.proj,.cntct{
+.lndng,.abt,.cntct,{
     height: 100vh;
     z-index: -1;
+    min-height: auto;
 }
+
 
 .aboutMeArticle{
     font-weight: 300; 
 }
 
+#projHeader{
+    font-size: small;
+}
+
 .peterPhoto{
     max-width: 150px;
     max-height: 150px;
+}
+
+.collapsible-header{
+    background-color:#FDFCFD;
+    text-align: center;
 }
 
 .contactContainer, .containerIntro,.containerProjects{
@@ -78,50 +89,3 @@ form{
 }
 
 
-
-/* dark mode */
-/* 
-
-.dark {
-    background-color: #202123;
-    color: #fff;
-    nav {
-        background-color: #26A69A;
-    }
-    .card {
-        background-color: rgba(255,255,255,0.2);
-    }
-    .btn {
-        background-color: #EE6F73;
-    }
-    .divider {
-        opacity: 0.2;
-    }
-    .sidenav {
-        background-color: #2D2D31;
-        li {
-            a {
-                &:not(.subheader){
-                    color: #89B2F5;
-                    &:hover {
-                        background-color: #3B4043;
-                    }
-                }
-                &.subheader {
-                    color:#9AA0A6; 
-                }
-                .material-icons {
-                    color: #9AA0A6;
-                }
-            }
-        }
-    }
-    .collection {
-        border: 1px solid rgba(255,255,255,0.2);
-        .collection-item {
-            background-color: rgba(255,255,255,0.2);
-            border-bottom: 1px solid rgba(255,255,255,0.2);;
-        }
-    }
-}
-} */
