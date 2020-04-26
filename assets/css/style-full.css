@@ -3,10 +3,20 @@ https://codepen.io/j_holtslander/pen/MRbpLX
 https://stackoverflow.com/questions/14319274/change-css-properties-on-click
  */
 
-body {
-background-color:#FDFCFD;
-font-family: 'Raleway', sans-serif;
+ :root {
+    --bg-primary-color: #FDFCFD;
+    --fnt-secondary-color: black;
+}
 
+[data-theme="dark"] {
+    --bg-dark-primary-color: #black;
+    --fnt-dark-secondary-color: #ccc;
+}
+
+body {
+background-color:var(--bg-primary-color);
+font-family: 'Raleway', sans-serif;
+color:var(--fnt-secondary-color);
 }
 
 nav{
@@ -31,8 +41,13 @@ h2{
     font-weight: 300; 
   }
 
+  #dropdown1{
+      background-color: var(--bg-primary-color);
+  }
+
 .btnContact {
     border: 1px solid blue;
+    color:var(--fnt-secondary-color);
 }
 
 .profilePic{
@@ -86,5 +101,28 @@ h2{
 
 form{
     margin-top: 10vh;
+}
+
+  
+
+  
+  @media screen and (prefers-color-scheme: dark) {
+    body {
+      background-color: black;
+      color: #ccc;
+    }
+
+    .btnContact{
+        color:#ccc;
+        background-color: var(--bg-dark-primary-color);
+    }
+
+#dropdown1{
+      background-color:black;
+
+  }
+
+
+
 }
 
