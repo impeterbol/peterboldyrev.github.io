@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/peterboldyrev/peterboldyrev.github.io/issues"
   },
-  "homepage": "https://github.com/peterboldyrev/peterboldyrev.github.io#readme",
+  "homepage": ".",
   "devDependencies": {
     "css-loader": "^3.5.3",
     "style-loader": "^1.2.0",
