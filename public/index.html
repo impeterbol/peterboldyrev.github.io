@@ -15,7 +15,7 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
             <!-- my personal css -->
-            <link rel="stylesheet" href="assets/css/stylemin.css">
+            <link rel="stylesheet" href="assets/css/style-min.css">
 
             <!-- flavicon -->
             <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/320/facebook/230/male-technologist_1f468-200d-1f4bb.png"/>
@@ -29,13 +29,22 @@
     <!-- navbar -->
         <nav class="z-depth-0">
             <div class="nav-wrapper">
-                <!-- <a class="btn-floating btn-small blue darkMode"><i class="fa fa-adjust"></i></a> -->
-
+                
             <ul class="right">
-                                <!-- Dropdown Trigger -->
-                    <a class='dropdown-trigger btn btnContact z-depth-0 transparent' data-target='dropdown1'>Contact me</a>
+                <!-- dark mode switch -->
+                <div class="switch">
+                    <label class="theme-switch">
+                       
+                      <input type="checkbox">
+                      <span class="lever"></span>
+                      <i class="fa fa-adjust"></i>
+                    </label>
+                </div>
+            <!-- dark mode switch ends -->
 
-                    <!-- Dropdown Structure -->
+             <!-- Dropdown Trigger -->
+                    <a class='dropdown-trigger btn btnContact z-depth-0 transparent' data-target='dropdown1'>Contact me</a>
+            <!-- Dropdown Structure -->
                             
             </ul>
             </div>
@@ -271,10 +280,9 @@
     
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script type="text/javascript" src="dist/bundle.js"></script>
+    <script type="text/javascript" src="../dist/bundle.js"></script>
 </body>
 
 </html>
