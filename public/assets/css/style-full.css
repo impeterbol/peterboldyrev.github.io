@@ -50,6 +50,9 @@ h2{
   #dropdown1{
       background-color: var(--bg-primary-color);
   }
+  #dropdown1 li a {
+    color:var(--fnt-secondary-color);
+  }
 
 .btnContact {
     border: 1px solid blue;
@@ -106,7 +109,13 @@ h2{
 
 form{
     margin-top: 10vh;
+
 }
+
+.input-field [name=name],[name=email],[name=message]{
+  color:var(--fnt-secondary-color);
+}
+
 
   
 /* this media query analyzes current user theme and switches theme automatically */
