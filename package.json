@@ -10,14 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://https://github.com/peterboldyrev/peterboldyrev.github.io"
+    "url": "git+https://github.com/peterboldyrev/peterboldyrev.github.io.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/peterboldyrev/peterboldyrev.github.io/issues"
   },
-  "homepage": ".",
   "devDependencies": {
     "css-loader": "^3.5.3",
     "style-loader": "^1.2.0",
