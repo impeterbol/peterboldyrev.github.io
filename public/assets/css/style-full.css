@@ -54,7 +54,7 @@ h2{
     color:var(--fnt-secondary-color);
   }
 
-.btnContact {
+.btnContact,.btnResume, .btnSubmit {
     border: 1px solid blue;
     color:var(--fnt-secondary-color);
 }
@@ -73,22 +73,25 @@ h2{
 .btnDown2{
     vertical-align:middle;
     margin-top:1vh;
+    
 }
 
 #mainText{
     margin-top: 10vh;
 }
 
-.lndng,.abt,.cntct,{
-    height: 100vh;
-    z-index: -1;
-    min-height: auto;
+
+.lndng,.cntct{
+  height: 100vh;
+  z-index: -1;
 }
 
 
 .aboutMeArticle{
     font-weight: 300; 
 }
+
+
 
 #projHeader{
     font-size: small;
